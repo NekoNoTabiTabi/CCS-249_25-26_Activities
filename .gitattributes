@@ -1,0 +1,2 @@
+BSCS[[:space:]]3A/STEVEN_KEN_PONTILLAS/EXERCISE[[:space:]]6/fashion_distilbert_finetuned/model.safetensors filter=lfs diff=lfs merge=lfs -text
+BSCS[[:space:]]3A/STEVEN_KEN_PONTILLAS/EXERCISE[[:space:]]6/fashion_distilbert_outputs/checkpoint-*/model.safetensors filter=lfs diff=lfs merge=lfs -text
