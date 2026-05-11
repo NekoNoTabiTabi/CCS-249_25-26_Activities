@@ -1,0 +1,29 @@
+Note:Save your Python source codes into a single .ipynb file, representing each number, with the proper naming convention (see Readme on the repository), upload it to your assigned folder in the GitHub organization.
+
+Naïve Bayes Implementation. Given a small dataset of documents with the class label, do the following tasks.
+doc	class
+Free money now!!!	| SPAM
+Hi mom, how are you?	| HAM
+Lowest price for your meds	| SPAM
+Are we still on for dinner?	| HAM
+Win a free iPhone today	| SPAM
+Let's catch up tomorrow at the office	| HAM
+Meeting at 3 PM tomorrow	| HAM
+Get 50% off, limited time!	| SPAM
+Team meeting in the office	| HAM
+Click here for prizes!	| SPAM
+Can you send the report?	| HAM
+
+1.Performing it manually. In manually developing a Naïve Bayes model, create methods that will do the following:
+a.Generate a Bag of Words (for word frequency)
+b.Calculate the prior for the class HAM and SPAM
+c.Calculate the likelihood of the tokens in the vocabulary with respect to the class.
+
+d.Determine the class of the following test sentence:
+i.Limited offer, click here!
+ii.Meeting at 2 PM with the manager.
+
+2.Using Scikit-Learn. Use the scikit-learn package to train and test a Multinomial Naïve Bayes classifer.
+a.Determine the class of the following test sentence:
+i.Limited offer, click here!
+ii.Meeting at 2 PM with the manager.
