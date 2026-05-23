@@ -1,0 +1,6 @@
+*.pt
+*.safetensors
+*.bin
+fashion_distilbert_finetuned/
+fashion_distilbert_outputs/
+checkpoint-*/

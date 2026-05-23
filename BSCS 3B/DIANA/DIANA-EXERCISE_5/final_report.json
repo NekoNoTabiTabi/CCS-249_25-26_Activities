@@ -1,0 +1,101 @@
+{
+  "model_vocab_size": 1807,
+  "model_vector_size": 100,
+  "relatedness_results": {
+    "covered_items": [
+      [
+        "jojo",
+        "bizarre",
+        0.85,
+        0.6322047114372253
+      ],
+      [
+        "stand",
+        "power",
+        0.8,
+        0.4637778401374817
+      ],
+      [
+        "stand",
+        "ability",
+        0.8,
+        0.5394307971000671
+      ],
+      [
+        "jojo",
+        "adventure",
+        0.75,
+        0.6260660290718079
+      ],
+      [
+        "bizarre",
+        "adventure",
+        0.7,
+        0.8551003336906433
+      ],
+      [
+        "jojo",
+        "series",
+        0.85,
+        0.12753510475158691
+      ],
+      [
+        "part",
+        "episode",
+        0.6,
+        0.169118270277977
+      ],
+      [
+        "character",
+        "protagonist",
+        0.7,
+        0.34140944480895996
+      ],
+      [
+        "anime",
+        "series",
+        0.85,
+        0.12113820761442184
+      ],
+      [
+        "manga",
+        "story",
+        0.75,
+        0.1559372842311859
+      ]
+    ],
+    "coverage": 10,
+    "total": 14
+  },
+  "analogy_results": {
+    "coverage": 2,
+    "total": 4,
+    "accuracy_top5": 0.0,
+    "details": [
+      {
+        "analogy": "jojo:bizarre::adventure:?",
+        "expected": "series",
+        "predictions": [
+          "gn",
+          "visitation",
+          "gns",
+          "all-star",
+          "slated"
+        ],
+        "correct_in_top5": false
+      },
+      {
+        "analogy": "part:episode::arc:?",
+        "expected": "story",
+        "predictions": [
+          "pony",
+          "hill",
+          "canyon",
+          "mutsu-kabe",
+          "prequel"
+        ],
+        "correct_in_top5": false
+      }
+    ]
+  }
+}

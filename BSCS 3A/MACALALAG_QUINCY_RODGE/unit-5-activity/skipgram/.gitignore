@@ -1,0 +1,3 @@
+venv
+# just run the file to generate the model
+*.model 
